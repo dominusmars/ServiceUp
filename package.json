@@ -1,0 +1,29 @@
+{
+    "dependencies": {
+        "@fabio286/ssh2-promise": "^1.0.4-b",
+        "@types/ssh2-streams": "^0.1.12",
+        "axios": "^1.7.2",
+        "colors": "^1.4.0",
+        "discord.js": "^14.15.3",
+        "express": "^4.19.2",
+        "ssh2": "^1.15.0",
+        "ssh2-promise": "^1.0.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.3"
+    },
+    "name": "serviceup",
+    "version": "1.0.0",
+    "main": "./src/index.js",
+    "scripts": {
+        "dev": "tsnd --respawn ./src/index.ts",
+        "prod": "tsc && node ./dist/src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/ssh2": "^1.15.0"
+    }
+}
